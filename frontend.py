@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import os
 
-BASE_URL = os.getenv("BACKEND_URL") 
+BASE_URL = os.getenv("BACKEND_URL")
+print(f"Using backend URL: {BASE_URL}")
 st.set_page_config(page_title="To-Do App", layout="centered")
 st.title("📝 The Best To-Do List Manager")
 
