@@ -5,7 +5,7 @@ import os
 BASE_URL = os.getenv("BACKEND_URL")
 print(f"Using backend URL: {BASE_URL}")
 st.set_page_config(page_title="To-Do App", layout="centered")
-st.title("📝 The Best To-Do List Manager")
+st.title("📝 I changed this")
 
 # ---------------------------
 # Helper functions
